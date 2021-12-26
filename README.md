@@ -45,7 +45,7 @@ python app.py
 ```
 Then open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
-Use the images on **Test** 
+Use the images on [**Test**](https://github.com/nguyenanhkhai/Vietnamese-Currency-Recognition/tree/master/test) 
 
 Or take a photo from your phone as template below.
 ![image](https://github.com/nguyenanhkhai/Vietnamese-Currency-Recognition/blob/master/test/Ti%E1%BB%81n%20ch%E1%BB%A5p%20t%E1%BB%AB%20%C4%91i%E1%BB%87n%20tho%E1%BA%A1i/Nh%E1%BA%ADn%20d%E1%BA%A1ng%20%C4%91%C3%BAng/200_f0.jpg?raw=true)

@@ -28,7 +28,7 @@ Nowadays, banknotes are a major instrument of our transactions. For foreign tour
 
 ![image](/screenshot/datasetExample.png)
 
-### Download or discover dataset: [Discover here.](https://github.com/nguyenanhkhai/Vietnamese-Currency-Recognition/dataset/RGB.csv)
+### Download or discover dataset: [Discover here.](https://raw.githubusercontent.com/nguyenanhkhai/Vietnamese-Currency-Recognition/master/dataset/RGB.csv)
 
 ## Installation
 

@@ -1,8 +1,12 @@
 # Vietnamese Currency Recognition
 
+## Introduction
+
+Nowadays, banknotes are a major instrument of our transactions. For foreign tourists coming to Vietnam, they are often worried because they don’t know clearly how much the banknote is worth compared to their country's currency or to the common currency as USD, which causes difficulties in the transaction process. Therefore, it is very necessary to build an application program to recognize Vietnamese banknotes.
+
 ## Overview
 
-Nowadays, banknotes are a major instrument of our transactions. For foreign tourists coming to Vietnam, they are often worried because they don’t know clearly how much the banknote is worth compared to their country's currency or to the common currency as USD, which causes difficulties in the transaction process. Therefore, it is very necessary to build an application program to recognize Vietnamese banknotes. The system uses image feature extraction by principal component analysis (PCA) in combination with support vector machine (SVM) algorithms to build a banknote classification model. We build a model using a radial basis function (Radial Basis Function - RBF) and a polynomial function (Poly). We evaluate the results as accuracy and training time and compare two models to choose the best one. Then display the denomination and equivalent banknote value. Experiments show that the Vietnamese currency recognition system using the radial basis function (RBF) gives an accuracy of 64.24%.
+The system uses image feature extraction by principal component analysis (PCA) in combination with support vector machine (SVM) algorithms to build a banknote classification model. We build a model using a radial basis function (Radial Basis Function - RBF) and a polynomial function (Poly). We evaluate the results as accuracy and training time and compare two models to choose the best one. Then display the denomination and equivalent banknote value. Experiments show that the Vietnamese currency recognition system using the radial basis function (RBF) gives an accuracy of 64.24%.
 
 ## Vietnamese Banknote Images Dataset
 
@@ -13,16 +17,16 @@ Nowadays, banknotes are a major instrument of our transactions. For foreign tour
 - Predicted attribute: class of Vietnamese Currency.
 
 ### Attribute information:
-     There are 6 classes such as:
+There are 6 classes such as:
 
-     | Ord | Label                               | Denomination |
-     | --- | ----------------------------------- | ------------ |
-     | 1   | Ten thousand Vietnam Dongs          | 10,000       |
-     | 2   | Two thousand Vietnam Dongs          | 20,000       |
-     | 3   | Five thousand Vietnam Dongs         | 50,000       |
-     | 4   | One hundred thousand Vietnam Dongs  | 100,000       |
-     | 5   | Two hundred thousand Vietnam Dongs  | 200,000       |
-     | 6   | Five hundred thousand Vietnam Dongs | 500,000       |
+| Ord | Label                               | Denomination  |
+| --- | ----------------------------------- | ------------  |
+| 1   | Ten thousand Vietnam Dongs          | 10,000        |
+| 2   | Two thousand Vietnam Dongs          | 20,000        |
+| 3   | Five thousand Vietnam Dongs         | 50,000        |
+| 4   | One hundred thousand Vietnam Dongs  | 100,000       |
+| 5   | Two hundred thousand Vietnam Dongs  | 200,000       |
+| 6   | Five hundred thousand Vietnam Dongs | 500,000       |
 
 ### Example: [All images](https://github.com/nguyenanhkhai/Vietnamese-Currency-Recognition/tree/master/assets)
 
